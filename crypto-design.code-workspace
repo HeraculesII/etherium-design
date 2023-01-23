@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Downloads/nft-preview-card-component"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "nft-preview-card-component"
+	}
+}

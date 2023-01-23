@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+
+  <style>
+    .background {
+      background-color: #0d192c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .block1 {
+      background-color: #15263f;
+      width: 350px;
+      height: 596px;
+      border-radius: 15px;
+      padding: 24px;
+      
+    }
+    .img1 {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+    .img2 {
+      width: 33px;
+      border: 1px solid white;
+      border-radius: 33px;
+      
+
+
+    }
+
+    .header-text {
+      color: white;
+      font-family: "Outfit", sans-serif;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 28px;
+      cursor: pointer;
+
+    }
+
+    .info-text {
+      color: #8bacd9;
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+
+    .color1 {
+
+      color: #2e405a;
+    }
+
+    .price-time {
+      color: #00fff8;
+      font-family: "Outfit", sans-serif;
+      display: flex;
+      place-items: center;
+      gap: 6.49px;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-between;
+
+
+
+
+      
+      
+    }
+    .bottom-text {
+      color: #00FFF8; 
+      font-weight: 400; 
+      font-size: 16px; 
+      cursor: pointer;
+      gap: 5px;
+
+    }
+    .bottom-text2 {
+      gap: 16px;
+      color: #8BACD9;
+            align-items: center;
+    }
+    .name {
+      color: #8bacd9;
+      font-family: "Outfit", sans-serif;
+      display: flex;
+      place-items: center;
+      align-items: center;
+      gap: 15px;
+      padding-top: 5px;
+
+
+      
+
+      
+
+    }
+    .etherium {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .clock {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .container1 {
+      position: relative;
+
+    }
+
+    .container1:hover .overlay {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+ 
+    .overlay {
+      background-color: rgba(0, 255, 248, 0.5);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      display: none;
+      border-radius: 12px;
+      
+      
+      
+    }
+  </style>
+
+  <body class="background">
+    <div class="block1">
+      <div class="container1">
+        <img class="img1" src="image-equilibrium.jpg" alt="crypto photo" />
+        <div class="overlay">
+          <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h48v48H0z"/><path d="M24 9C14 9 5.46 15.22 2 24c3.46 8.78 12 15 22 15 10.01 0 18.54-6.22 22-15-3.46-8.78-11.99-15-22-15Zm0 25c-5.52 0-10-4.48-10-10s4.48-10 10-10 10 4.48 10 10-4.48 10-10 10Zm0-16c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6Z" fill="#FFF" fill-rule="nonzero"/></g></svg>
+        </div>
+      </div>
+      <h1 class="header-text">
+        Equilibrium #3429
+      </h1>
+      <h2 class="info-text">
+        Our Equilibrium collection promotes balance and calm.
+      </h2>
+      <svg
+        width="11"
+        height="18"
+        display="none"
+        xmlns="http://www.w3.org/2000/svg">
+      <div class="price-time">
+          <div class="etherium">
+              <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
+                  fill="#00FFF8"/></svg>
+
+               <p>0.041 ETH</p>
+            </div>
+    
+            <div class="clock">
+              <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>
+              <p> 3 days left</p>
+            </div>
+
+
+      
+
+        </div>
+      </svg>
+      <hr class="color1" />
+
+<div class="name">
+  <div>
+    <img class="img2" src="image-avatar.png" alt="image avatar" />
+  </div>
+  <div class="bottom-text2" >
+    <p>Creation of</p>
+  </div>
+  <div class="bottom-text">Jules Wyvern</div>
+</div>
+    </div>
+  </body>
+</html>
